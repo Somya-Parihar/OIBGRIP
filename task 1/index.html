@@ -1,0 +1,97 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="function.js"></script>
+</head>
+    <div class="first">
+        <img id = "Home"class="pic" src="resources/main_pic.jpeg" width="100%">
+        <div class="topnav">
+            <div class="dropdown">
+                <button class="dropbtn"><a href="#Cities">Cities</a>
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-cities">
+                <p>ujjain<br>dewas<br>indore<br>bhopal</p>
+              </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Contact
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                <p>mobile number: +91 7440833792</p>
+                <p>email id : safe_fooddelivery@gmail.com</p>
+              </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">About
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-about">
+                <p>our company was estabished in 2015</p>
+                <p>with the aim of providing good quality<br> to food to our coustomers at there Home</p>
+              </div>
+            </div>
+        </div>
+        <h1 class="name">
+        <b>Safe food delivery</b>
+        </h1> 
+    </div>
+    <div class="availablity">
+        <h1 style="border-top: 2px solid;">WE ARE AVAILAIBLE IN THESE CITIES</h1>
+        <table id = "Cities"style="width: 100%;border-top: 2px solid;">
+            <tr>
+                <th class="heading">UJJAIN</th>
+                <th class="heading">INDORE</th>
+                <th class="heading">BHOPAL</th>
+                <th class="heading">DEWAS</th>
+            </tr>
+            <tr>
+                <td class = "city"><img src="resources/ujjain.jpeg" ></td>
+                <td class = "city"><img src="resources/indore.jpeg" ></td>
+                <td class = "city"><img src="resources/bhopal.jpeg" ></td>
+                <td class = "city" style="border-right: 1px dashed;"><img src="resources/dewas.jpeg" width="70%"></td>
+            </tr>
+            <tr>
+                <td class="city"><a href="#">more details</a></td>
+                <td class="city"><a href="#">more details</a></td>
+                <td class="city"><a href="#">more details</a></td>
+                <td class="city"><a href="#">more details</a></td>
+            </tr>
+        </table>
+    </div>
+    <div class="app">
+        <h2 style="text-align: center; border-bottom: 2px;">download our app</h2>
+        <img class="iphone" src="resources/image.png" width="100%">
+        <a href="#"><img class="download" src="resources/appstore.png" width = "20%"></a>
+    </div>
+    <div class="rating">
+        <h1>Rate US</h1>
+        <form>
+            <label style = "margin-right: 1%; width: 10%;"for="Fname">First Name</label>
+            <input style ="width: max-content;" class="N1" type="text" id="fname" name="fname" value="Name">
+            <label style = "margin-right: 1%; width: 10%;"for="lname">Last Name</label>
+            <input style ="width: max-content;" class="N1"type="text" id="lname" name="lname" value="Last Name"><br>
+            <label style = "margin-right: 2%; width: 10%;"for="mail">Mail ID:</label>
+            <input style = "width: 50%;"type="email" id="mail" name="mail" value="XYZ@example.com"><br>
+            <h3>Give us stars</h3>
+            <label style="margin-right: 3%;" for="star" ></label>
+        </form>
+        <div class="rate_star">
+            <img id="myImage" onclick="changeImage(1)" src="resources/rateon.png" width="50%">
+        </div>
+        <div class="rate_star">
+            <img id="myImage1" onclick="changeImage(2)" src="resources/rateon.png" width="50%">
+        </div>
+        <div class="rate_star">
+            <img id="myImage2" onclick="changeImage(3)" src="resources/rateon.png" width="50%">
+        </div>
+        <div class="rate_star">
+            <img id="myImage3" onclick="changeImage(4)" src="resources/rateon.png" width="50%">
+        </div>
+        <div class="rate_star">
+            <img id="myImage4" onclick="changeImage(5)" src="resources/rateon.png" width="50%">
+        </div>
+    </div>
+    
+</html>
