@@ -1,0 +1,16 @@
+.heading {
+    position: absolute;
+    font-size: 6vw;
+    left: 50%;
+    top: 0%;
+    transform: translateX(-50%);
+}
+.form {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+}
+.form .degree {
+    width: fit-content;
+}
